@@ -1,0 +1,6 @@
+mkdir -p inventory-sdd/specs inventory-sdd/src inventory-sdd/diagrams
+cd inventory-sdd
+# ถ้ามี inventory.py จาก Lab 2 ให้คัดลอกมาไว้ที่ src/
+git init
+git add .
+git commit -m "chore: เริ่มโปรเจกต์ Lab 3 (Spec-Driven Development)"

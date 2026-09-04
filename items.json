@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "productId": "RAM-001",
+      "productName": "Corsair Dominator Titanium RGB 64GB",
+      "brand": "Corsair",
+      "capacityGb": 64,
+      "moduleCount": 2,
+      "packageType": "KIT",
+      "hasRgb": true,
+      "rgbSyncSystems": ["ASUS Aura Sync", "iCUE"],
+      "speed": "DDR5-6000",
+      "timing": "CL30-36-36-76",
+      "voltage": "1.35V",
+      "memoryChipManufacturer": "SK Hynix",
+      "memoryChipType": "A-Die",
+      "stockQuantity": 3
+    },
+    {
+      "productId": "RAM-002",
+      "productName": "G.Skill Trident Z5 RGB 32GB",
+      "brand": "G.Skill",
+      "capacityGb": 32,
+      "moduleCount": 2,
+      "packageType": "KIT",
+      "hasRgb": true,
+      "rgbSyncSystems": ["ASUS Aura Sync", "MSI Mystic Light", "Gigabyte RGB Fusion"],
+      "speed": "DDR5-6400",
+      "timing": "CL32-39-39-102",
+      "voltage": "1.40V",
+      "memoryChipManufacturer": "SK Hynix",
+      "memoryChipType": "M-Die",
+      "stockQuantity": 5
+    },
+    {
+      "productId": "RAM-003",
+      "productName": "Kingston Fury Beast 16GB",
+      "brand": "Kingston",
+      "capacityGb": 16,
+      "moduleCount": 1,
+      "packageType": "SINGLE",
+      "hasRgb": false,
+      "rgbSyncSystems": [],
+      "speed": "DDR4-3200",
+      "timing": "CL16-18-18-38",
+      "voltage": "1.35V",
+      "memoryChipManufacturer": "Micron",
+      "memoryChipType": "E-Die",
+      "stockQuantity": 10
+    },
+    {
+      "productId": "RAM-004",
+      "productName": "TeamGroup T-Force Delta RGB 64GB",
+      "brand": "TeamGroup",
+      "capacityGb": 64,
+      "moduleCount": 4,
+      "packageType": "KIT",
+      "hasRgb": true,
+      "rgbSyncSystems": ["ASRock Polychrome", "MSI Mystic Light"],
+      "speed": "DDR4-3600",
+      "timing": "CL18-22-22-42",
+      "voltage": "1.35V",
+      "memoryChipManufacturer": "Samsung",
+      "memoryChipType": "B-Die",
+      "stockQuantity": 2
+    }
+  ],
+  "serials": [
+    {
+      "serialNumber": "SN-COR-64G-001",
+      "productId": "RAM-001",
+      "status": "IN_STOCK"
+    },
+    {
+      "serialNumber": "SN-COR-64G-002",
+      "productId": "RAM-001",
+      "status": "SOLD"
+    },
+    {
+      "serialNumber": "SN-GSK-32G-001",
+      "productId": "RAM-002",
+      "status": "IN_STOCK"
+    },
+    {
+      "serialNumber": "SN-KNG-16G-001",
+      "productId": "RAM-003",
+      "status": "IN_STOCK"
+    }
+  ]
+}
