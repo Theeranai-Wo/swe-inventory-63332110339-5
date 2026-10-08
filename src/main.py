@@ -1,5 +1,6 @@
 from inventory import InventoryService, NotifierFactory
 
+
 def main():
     # สร้าง Notifier ด้วย Factory Pattern และส่งเข้า Service (DIP + Observer)
     console_observer = NotifierFactory.create("console")
@@ -31,7 +32,7 @@ def main():
 
         elif choice == "2":
             sn = input("สแกน/กรอก Serial Number: ").strip()
-            success, msg, alert = inv_service.sell_by_serial(sn)
+            _success, msg, _alert = inv_service.sell_by_serial(sn)
             print(f">> ผลการทำงาน: {msg}")
 
         elif choice == "3":

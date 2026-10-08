@@ -1,0 +1,17 @@
+[tool.ruff]
+line-length = 100
+extend-exclude = ["lab04-ai-coding-ux", "pricing_legacy.py", "src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.coverage.run]
+omit = [
+    "pricing_legacy.py",
+    "tests/*",
+    "lab04-ai-coding-ux/*",
+    "src/*",
+]

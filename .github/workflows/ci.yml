@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-and-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ดึงโค้ด
+        uses: actions/checkout@v4
+
+      - name: ติดตั้ง Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: ติดตั้ง package
+        run: pip install -r requirements.txt
+
+      - name: ตรวจด้วย ruff
+        run: ruff check .
+
+      - name: รัน test พร้อมเกณฑ์ coverage ขั้นต่ำ
+        run: pytest tests/ --cov=. --cov-report=term-missing --cov-fail-under=85
